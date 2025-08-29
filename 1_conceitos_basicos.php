@@ -50,7 +50,7 @@ $a = 12;
 $b = 7;
 
 echo "Subtração: " . ($a - $b) . "<br></br>";
-echo "Sub negativo: ". ($b - $a) . "<br></br>";
+echo "Sub negativo: " . ($b - $a) . "<br></br>";
 echo "Divisão: " . ($a / $b) . "<br></br>";
 echo "Multiplicação: " . ($a * $b) . "<br></br>";
 
