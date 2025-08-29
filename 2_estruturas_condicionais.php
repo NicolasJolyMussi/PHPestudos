@@ -9,8 +9,7 @@ echo "Estruturas condicionais <br></br>";
 $idade = 20;
 
 // if(comparacao -> booleano(T/F)){ //executo }
-if($idade >= 18)
-{
+if ($idade >= 18) {
     echo "Você é maior de idade <br></br>";
 }
 
@@ -19,12 +18,9 @@ if($idade >= 18)
 
 $salario = 1000;
 
-if($salario > 2000)
-{
+if ($salario > 2000) {
     echo "O seu salário é bom! <br></br>";
-}
-else
-{
+} else {
     echo "Seu salário é baixo! <br></br>";
 }
 
@@ -36,16 +32,32 @@ else
 
 $nota = 7.5;
 
-if($nota > 9 )
-{
+if ($nota > 9) {
     echo "Você tirou uma nota alta! <br></br>";
-}
-elseif($nota > 7)
-{
+} elseif ($nota > 7) {
     echo "Você tirou uma nota boa! <br></br>";
-}
-else
-{
+} else {
     echo "Você tirou uma nota baixa! <br></br>";
 }
-?>
+
+//Nao tem limite de else if, posso ter 100
+//sempre tenho que ter if
+//posso ou nao ter 1 ou mais else if's
+//posso ou nao ter 1 else
+
+// > 100 = é muito rapido
+// > 80 = acima do limite 
+// > 60 = acitavel 
+// < = muito lento
+
+$velocidade = 120;
+
+if ($velocidade >= 100) {
+    echo "Você está muito acima do limite! <br></br>";
+} elseif ($velocidade >= 80) {
+    echo "Você está acima do limite! <br></br>";
+} elseif ($velocidade >= 60) {
+    echo "Você está em uma velocidade boa. <br></br>";
+} else {
+    echo "Você está muito lento, por favor aumente a sua velocidade. <br></br>";
+}
