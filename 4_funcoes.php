@@ -28,3 +28,15 @@ function soma($a, $b): mixed
 
 $resultado = soma(a: 4, b: 4);
 echo "O resultado é  $resultado <br><br>";
+
+//funcoes da linguagem -> built in functions
+//podemos saber o tamanho do texto
+
+$tamanho = strlen(string: "Este é o meu texto <br><br>");
+echo "O tamanho do texto é $tamanho <br><br>";
+
+$cores = ["verde", "amarelo"];
+
+array_push($cores, "vermelho");
+
+print_r(value: $cores);
